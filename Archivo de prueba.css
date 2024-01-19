@@ -1,8 +1,6 @@
 h1 {
     color: #B03A2E;
     /* color de texto */
-    background-color: aquamarine;
-    /* color de fondo */
     text-align: center;
     /* alineacion de texto */
 
@@ -17,6 +15,9 @@ h2 {
 p {
     color: rgb(46, 204, 113);
     line-height: 20px;
+    column-count: 5;
+    column-gap: 60px;
+    text-align: center;
 
 }
 
@@ -25,15 +26,33 @@ p {
 }
 
 .tres {
-    background-color: aquamarine;
+    /* background: linear-gradient(135deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); */
 }
 
-#cuatro {
+#cuatro-a {
     width: 200px;
     height: 200px;
     background-color: grey;
     text-align: center;
+    border-radius: 30px;
     border: 2px solid black;
     padding: 10px;
     margin-left: 570px;
+}
+
+header {
+    background: linear-gradient(135deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+    height: 100px;
+}
+
+main {
+    background: linear-gradient(135deg, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+}
+
+footer {
+    background: linear-gradient(135deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
 }
