@@ -27,10 +27,6 @@ p {
 
 }
 
-.tres {
-    /* background: linear-gradient(135deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); */
-}
-
 #caja {
     width: 200px;
     height: 200px;
@@ -50,16 +46,18 @@ p {
 body {
     background-image: linear-gradient(to right top, #050937, #00417b, #007891, #00ad6b, #98d60e);
 
-    ul {
-        margin-left: 300px;
-        font-family: 'Handlee', cursive;
-    }
+}
 
-    ol {
-        margin-left: 300px;
-        font-family: 'Handlee', cursive;
-    }
+ul {
+    margin-left: 300px;
+    font-family: 'Handlee', cursive;
+}
 
-    li {
-        color: rgb(14, 32, 28);
-    }
+ol {
+    margin-left: 300px;
+    font-family: 'Handlee', cursive;
+}
+
+li {
+    color: rgb(14, 32, 28);
+}
